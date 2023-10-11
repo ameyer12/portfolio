@@ -58,7 +58,19 @@
     animation-duration: 1s;
 }
 
-#under-construction-card-p{
+#accessibility-web-scraper-card-p {
+    margin-bottom: 5%;
+}
+
+#CLI-wordle-card-img {
+    height: 40.2%;
+}
+
+#CLI-wordle-card-p {
+    margin-bottom: 4%;
+}
+
+#under-construction-card-p {
     margin-bottom: 4%;
 }
 

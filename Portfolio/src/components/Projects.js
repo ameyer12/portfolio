@@ -8,6 +8,8 @@ import strangersThingsImage from "./Stranger's Things.png";
 import guessingGameImage from "./Guessing Game.png";
 import toDoAppImage from "./To Do App.png";
 import informationalWebsiteImage from "./Informational Website.png";
+import accessibilityWebScraper from "./Accessibility Web Scraper.png";
+import CLIWordle from "./CLI Wordle.png";
 import underConstructionImage from "./Under Construction.png";
 import "animate.css";
 
@@ -113,6 +115,32 @@ function Projects() {
             </div>
           </div>
           <div class="card project-card">
+            <img class="card-img-top" src={accessibilityWebScraper} alt="Project"></img>
+            <div class="card-body">
+              <h5 class="card-title">Accessibility Web Scraper</h5>
+              <p id="accessibility-web-scraper-card-p" class="card-text">This project is a solution to automate the process of using the WAVE Web Accessibility Evaluation tool.
+              <br></br>
+              <br></br>
+              <span class="project-bold-text">Tech stack:</span> JavaScript, React, HTML, CSS, Bootstrap, Python, Flask
+              <br></br>
+              </p>
+              <a href="https://accessibility-web-scraper.netlify.app" class="btn btn-primary project-button visit-site-button">
+              Visit Site</a>
+              <a href="https://github.com/ameyer12/accessibility-web-scraper" class="btn btn-primary project-button visit-site-button">GitHub</a>
+            </div>
+          </div>
+          <div class="card project-card">
+            <img id="CLI-wordle-card-img" class="card-img-top" src={CLIWordle} alt="Project"></img>
+            <div class="card-body">
+              <h5 class="card-title">CLI Wordle</h5>
+              <p id="CLI-wordle-card-p" class="card-text">This project is my CLI implementation of the popular browser-based game, Wordle. Wordle is a word guessing game. Users have five chances to guess the hidden five letter word.
+              <br></br>
+              <br></br>
+              </p>
+              <a href="https://github.com/ameyer12/CLI-Wordle" class="btn btn-primary project-button">GitHub</a>
+            </div>
+          </div>
+          {/* <div class="card project-card">
             <img class="card-img-top" src={underConstructionImage} alt="Project"></img>
             <div class="card-body">
               <h5 class="card-title">DFW Sports Scanner</h5>
@@ -147,7 +175,7 @@ function Projects() {
               >
               GitHub</a>
             </div>
-          </div>
+          </div> */}
           </div>     
         </div>
       </div>             
