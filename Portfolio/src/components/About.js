@@ -1,7 +1,7 @@
 import React from "react";
 import './about.css';
 import portfolioImage from './Portfolio Image.jpg'
-import { DiReact, DiCss3, DiGithubBadge, DiJavascript1, DiHtml5, DiBootstrap, DiGit } from 'react-icons/di';
+import { DiReact, DiCss3, DiGithubBadge, DiJavascript1, DiHtml5, DiBootstrap, DiGit, DiPython } from 'react-icons/di';
 import { SiExpress, SiFigma, SiNodedotjs } from 'react-icons/si'
 
 function About() {
@@ -33,6 +33,10 @@ function About() {
                 <td>» Git <DiGit /></td>
                 <td>» GitHub <DiGithubBadge /></td>
               </tr>
+              <tr>
+                <td>» Python <DiPython /></td>
+                <td>» Flask </td>
+              </tr>
             </table>
           </div>
           <div className="card" id="about-card1">
@@ -40,8 +44,8 @@ function About() {
             I majored in English because I am passionate about researching and writing about complex topics, but I was never sure how I would turn that passion into a career until I started coding.
             <br></br>
             <br></br>
-            I started coding in 2022, and I fell in love with how it allows me to express my passion for writing in such a tangible way. After self-learning HTML and CSS, I enrolled in a web development bootcamp at Fullstack Academy to build foundational programming skills while learning the latest technologies. 
-            I graduated from the bootcamp in December 2022, and my goal is to become a junior developer to contribute to real-world projects and continue growing as a programmer.
+            I started coding in 2022, and I fell in love with how it allows me to express my passion for writing in a tangible way. After self-learning HTML and CSS, I enrolled in a web development bootcamp at Fullstack Academy to build foundational programming skills while learning the latest technologies. 
+            I graduated from the bootcamp in December 2022 and am now pursuing my Master's in Computer Science at The University of North Texas. My goal is to become a junior developer to contribute to real-world projects and continue growing as a programmer.
             <br></br>
             <br></br>
             Outside of web development, I enjoy playing soccer, collecting vinyl records, going to the gym, and hanging out with friends and family.
